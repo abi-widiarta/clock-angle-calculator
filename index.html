@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CLOCK</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- jam keseluruhan start -->
+      <div class="circle">
+        <!-- <span class="grid-horizontal"></span>
+          <span class="grid-vertical"></span> -->
+
+        <!-- jarum jam start -->
+        <span class="center-circle"></span>
+        <span class="minute"></span>
+        <span class="hour"></span>
+        <!-- jarum jam end -->
+
+        <!-- angka jam start -->
+        <div class="number number-12">12</div>
+        <div class="number number-1">1</div>
+        <div class="number number-2">2</div>
+        <div class="number number-4">4</div>
+        <div class="number number-5">5</div>
+        <div class="number number-6">6</div>
+        <div class="number number-7">7</div>
+        <div class="number number-8">8</div>
+        <div class="number number-3">3</div>
+        <div class="number number-9">9</div>
+        <div class="number number-10">10</div>
+        <div class="number number-11">11</div>
+        <!-- angka jam end -->
+      </div>
+      <!-- jam keseluruhan start -->
+
+      <!-- input jam dan menit start -->
+      <div class="input-text-container">
+        <input type="text" class="input-text input-hour" maxlength="2" placeholder="00" />
+        <span class="divider">:</span>
+        <input type="text" class="input-text input-minute" maxlength="2" placeholder="00" />
+      </div>
+      <!-- input jam dan menit end -->
+
+      <!-- button ok -->
+      <button type="button" id="button-ok">OK</button>
+
+      <!-- info sudut start -->
+      <div class="info">
+        <p class="lancip">Sudut Lancip :</p>
+        <p class="tumpul">Sudut Tumpul :</p>
+        <p class="lurus">Sudut Lurus : 180 derajat</p>
+      </div>
+      <!-- info sudut end -->
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
